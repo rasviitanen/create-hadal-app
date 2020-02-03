@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hadal Plain Client</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./bootstrap.js"></script>
+    <script src="https://unpkg.com/marked@0.3.6"></script>
+
+    <div id="editor">
+      <textarea :value="input" @input="update"></textarea>
+      <div v-html="compiledMarkdown"></div>
+    </div>
+
+  </body>
+</html>
