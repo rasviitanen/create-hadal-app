@@ -28,7 +28,7 @@
   "homepage": "https://github.com/rasviitanen/hadal#readme",
   "dependencies": {
     "aphrodite": "^2.4.0",
-    "hadal": "^0.1.2",
+    "hadal": "^0.1.21",
     "marked": "^0.8.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
@@ -40,7 +40,7 @@
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "copy-webpack-plugin": "^5.0.0",
+    "copy-webpack-plugin": "^5.1.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "prop-types": "^15.7.2",

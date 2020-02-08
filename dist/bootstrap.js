@@ -52,287 +52,287 @@
 /******/ 	function promiseResolve() { return Promise.resolve(); }
 /******/
 /******/ 	var wasmImportObjects = {
-/******/ 		"../../pkg/hadal_bg.wasm": function() {
+/******/ 		"./node_modules/hadal/hadal_bg.wasm": function() {
 /******/ 			return {
 /******/ 				"./hadal.js": {
 /******/ 					"__wbindgen_object_drop_ref": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_object_drop_ref"](p0i32);
-/******/ 					},
-/******/ 					"__wbindgen_json_parse": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_json_parse"](p0i32,p1i32);
-/******/ 					},
-/******/ 					"__wbindgen_json_serialize": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_json_serialize"](p0i32,p1i32);
-/******/ 					},
-/******/ 					"__wbg_app_new": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_app_new"](p0i32);
-/******/ 					},
-/******/ 					"__wbindgen_cb_drop": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_cb_drop"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_object_drop_ref"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_object_clone_ref": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_object_clone_ref"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_object_clone_ref"](p0i32);
+/******/ 					},
+/******/ 					"__wbindgen_json_parse": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_json_parse"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbindgen_json_serialize": function(p0i32,p1i32) {
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_json_serialize"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbindgen_cb_drop": function(p0i32) {
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_cb_drop"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_app_new": function(p0i32) {
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_app_new"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_string_new": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_is_undefined": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_is_undefined"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_is_undefined"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_jsval_eq": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_jsval_eq"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_jsval_eq"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_new_3a746f2619705add": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_new_3a746f2619705add"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_new_3a746f2619705add"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_call_f54d3a6dadb199ca": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_call_f54d3a6dadb199ca"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_call_f54d3a6dadb199ca"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_self_ac379e780a0d8b94": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_self_ac379e780a0d8b94"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_self_ac379e780a0d8b94"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_crypto_1e4302b85d4f64a2": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_crypto_1e4302b85d4f64a2"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_crypto_1e4302b85d4f64a2"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_getRandomValues_1b4ba144162a5c9e": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_getRandomValues_1b4ba144162a5c9e"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_getRandomValues_1b4ba144162a5c9e"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_require_6461b1e9a0d7c34a": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_require_6461b1e9a0d7c34a"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_require_6461b1e9a0d7c34a"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_getRandomValues_1ef11e888e5228e9": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_getRandomValues_1ef11e888e5228e9"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_getRandomValues_1ef11e888e5228e9"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_randomFillSync_1b52c8482374c55b": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_randomFillSync_1b52c8482374c55b"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_randomFillSync_1b52c8482374c55b"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbindgen_cb_forget": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_cb_forget"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_cb_forget"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_log_8ec6562adb8126e0": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_log_8ec6562adb8126e0"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_log_8ec6562adb8126e0"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_new_CustomEvent": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_new_CustomEvent"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_new_CustomEvent"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_init_custom_event_with_can_bubble_and_cancelable_and_detail_CustomEvent": function(p0i32,p1i32,p2i32,p3i32,p4i32,p5i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_init_custom_event_with_can_bubble_and_cancelable_and_detail_CustomEvent"](p0i32,p1i32,p2i32,p3i32,p4i32,p5i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_init_custom_event_with_can_bubble_and_cancelable_and_detail_CustomEvent"](p0i32,p1i32,p2i32,p3i32,p4i32,p5i32);
 /******/ 					},
 /******/ 					"__widl_f_target_Event": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_target_Event"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_target_Event"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_new_EventTarget": function() {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_new_EventTarget"]();
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_new_EventTarget"]();
 /******/ 					},
 /******/ 					"__widl_f_add_event_listener_with_callback_EventTarget": function(p0i32,p1i32,p2i32,p3i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_add_event_listener_with_callback_EventTarget"](p0i32,p1i32,p2i32,p3i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_add_event_listener_with_callback_EventTarget"](p0i32,p1i32,p2i32,p3i32);
 /******/ 					},
 /******/ 					"__widl_f_dispatch_event_EventTarget": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_dispatch_event_EventTarget"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_dispatch_event_EventTarget"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_create_object_store_IDBDatabase": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_create_object_store_IDBDatabase"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_create_object_store_IDBDatabase"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__widl_f_transaction_with_str_and_mode_IDBDatabase": function(p0i32,p1i32,p2i32,p3i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_transaction_with_str_and_mode_IDBDatabase"](p0i32,p1i32,p2i32,p3i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_transaction_with_str_and_mode_IDBDatabase"](p0i32,p1i32,p2i32,p3i32);
 /******/ 					},
 /******/ 					"__widl_f_open_IDBFactory": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_open_IDBFactory"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_open_IDBFactory"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__widl_f_create_index_with_str_IDBObjectStore": function(p0i32,p1i32,p2i32,p3i32,p4i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_create_index_with_str_IDBObjectStore"](p0i32,p1i32,p2i32,p3i32,p4i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_create_index_with_str_IDBObjectStore"](p0i32,p1i32,p2i32,p3i32,p4i32);
 /******/ 					},
 /******/ 					"__widl_f_delete_IDBObjectStore": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_delete_IDBObjectStore"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_delete_IDBObjectStore"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_get_IDBObjectStore": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_get_IDBObjectStore"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_get_IDBObjectStore"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_get_all_keys_IDBObjectStore": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_get_all_keys_IDBObjectStore"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_get_all_keys_IDBObjectStore"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_put_with_key_IDBObjectStore": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_put_with_key_IDBObjectStore"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_put_with_key_IDBObjectStore"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__widl_f_set_onupgradeneeded_IDBOpenDBRequest": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_onupgradeneeded_IDBOpenDBRequest"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_onupgradeneeded_IDBOpenDBRequest"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_instanceof_IDBRequest": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_instanceof_IDBRequest"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_instanceof_IDBRequest"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_result_IDBRequest": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_result_IDBRequest"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_result_IDBRequest"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_ready_state_IDBRequest": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_ready_state_IDBRequest"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_ready_state_IDBRequest"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_set_onsuccess_IDBRequest": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_onsuccess_IDBRequest"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_onsuccess_IDBRequest"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_set_onerror_IDBRequest": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_onerror_IDBRequest"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_onerror_IDBRequest"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_object_store_IDBTransaction": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_object_store_IDBTransaction"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_object_store_IDBTransaction"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__widl_f_data_MessageEvent": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_data_MessageEvent"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_data_MessageEvent"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_send_with_str_RTCDataChannel": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_send_with_str_RTCDataChannel"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_send_with_str_RTCDataChannel"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__widl_f_ready_state_RTCDataChannel": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_ready_state_RTCDataChannel"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_ready_state_RTCDataChannel"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_set_onopen_RTCDataChannel": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_onopen_RTCDataChannel"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_onopen_RTCDataChannel"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_set_onclose_RTCDataChannel": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_onclose_RTCDataChannel"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_onclose_RTCDataChannel"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_set_onmessage_RTCDataChannel": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_onmessage_RTCDataChannel"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_onmessage_RTCDataChannel"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_channel_RTCDataChannelEvent": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_channel_RTCDataChannelEvent"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_channel_RTCDataChannelEvent"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_candidate_RTCIceCandidate": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_candidate_RTCIceCandidate"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_candidate_RTCIceCandidate"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_sdp_mid_RTCIceCandidate": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_sdp_mid_RTCIceCandidate"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_sdp_mid_RTCIceCandidate"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_new_with_configuration_RTCPeerConnection": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_new_with_configuration_RTCPeerConnection"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_new_with_configuration_RTCPeerConnection"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_add_ice_candidate_with_opt_rtc_ice_candidate_init_RTCPeerConnection": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_add_ice_candidate_with_opt_rtc_ice_candidate_init_RTCPeerConnection"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_add_ice_candidate_with_opt_rtc_ice_candidate_init_RTCPeerConnection"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_create_answer_with_rtc_answer_options_RTCPeerConnection": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_create_answer_with_rtc_answer_options_RTCPeerConnection"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_create_answer_with_rtc_answer_options_RTCPeerConnection"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_create_data_channel_RTCPeerConnection": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_create_data_channel_RTCPeerConnection"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_create_data_channel_RTCPeerConnection"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__widl_f_create_offer_with_rtc_offer_options_RTCPeerConnection": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_create_offer_with_rtc_offer_options_RTCPeerConnection"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_create_offer_with_rtc_offer_options_RTCPeerConnection"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_set_local_description_RTCPeerConnection": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_local_description_RTCPeerConnection"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_local_description_RTCPeerConnection"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_set_remote_description_RTCPeerConnection": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_remote_description_RTCPeerConnection"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_remote_description_RTCPeerConnection"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_set_onicecandidate_RTCPeerConnection": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_onicecandidate_RTCPeerConnection"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_onicecandidate_RTCPeerConnection"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_set_ondatachannel_RTCPeerConnection": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_ondatachannel_RTCPeerConnection"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_ondatachannel_RTCPeerConnection"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_candidate_RTCPeerConnectionIceEvent": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_candidate_RTCPeerConnectionIceEvent"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_candidate_RTCPeerConnectionIceEvent"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_new_with_description_init_dict_RTCSessionDescription": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_new_with_description_init_dict_RTCSessionDescription"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_new_with_description_init_dict_RTCSessionDescription"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_sdp_RTCSessionDescription": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_sdp_RTCSessionDescription"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_sdp_RTCSessionDescription"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_new_WebSocket": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_new_WebSocket"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_new_WebSocket"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_send_with_str_WebSocket": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_send_with_str_WebSocket"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_send_with_str_WebSocket"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__widl_f_set_onopen_WebSocket": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_onopen_WebSocket"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_onopen_WebSocket"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_set_onerror_WebSocket": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_onerror_WebSocket"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_onerror_WebSocket"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_f_set_onmessage_WebSocket": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_set_onmessage_WebSocket"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_set_onmessage_WebSocket"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__widl_instanceof_Window": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_instanceof_Window"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_instanceof_Window"](p0i32);
 /******/ 					},
 /******/ 					"__widl_f_indexed_db_Window": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__widl_f_indexed_db_Window"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__widl_f_indexed_db_Window"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_from_f808f222abb92c17": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_from_f808f222abb92c17"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_from_f808f222abb92c17"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_newnoargs_0c3c518a7f7c56bf": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_newnoargs_0c3c518a7f7c56bf"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_newnoargs_0c3c518a7f7c56bf"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_call_aa56d0132fec7569": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_call_aa56d0132fec7569"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_call_aa56d0132fec7569"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_call_34f87007c5d2a397": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_call_34f87007c5d2a397"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_call_34f87007c5d2a397"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_new_de17f04ab3be4063": function() {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_new_de17f04ab3be4063"]();
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_new_de17f04ab3be4063"]();
 /******/ 					},
 /******/ 					"__wbg_new_ae7ab61d79722de3": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_new_ae7ab61d79722de3"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_new_ae7ab61d79722de3"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_new_5e8d465c199e6ff3": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_new_5e8d465c199e6ff3"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_new_5e8d465c199e6ff3"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_resolve_04ca3cb0d333a4f0": function(p0i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_resolve_04ca3cb0d333a4f0"](p0i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_resolve_04ca3cb0d333a4f0"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_then_1fa2e92ee4bdbc93": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_then_1fa2e92ee4bdbc93"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_then_1fa2e92ee4bdbc93"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_then_486e2e2b1fb1bbf4": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_then_486e2e2b1fb1bbf4"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_then_486e2e2b1fb1bbf4"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_globalThis_4fa2faeae7a7a380": function() {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_globalThis_4fa2faeae7a7a380"]();
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_globalThis_4fa2faeae7a7a380"]();
 /******/ 					},
 /******/ 					"__wbg_self_ed02073ec1d8fef4": function() {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_self_ed02073ec1d8fef4"]();
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_self_ed02073ec1d8fef4"]();
 /******/ 					},
 /******/ 					"__wbg_window_356847be61f4a80f": function() {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_window_356847be61f4a80f"]();
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_window_356847be61f4a80f"]();
 /******/ 					},
 /******/ 					"__wbg_global_6580a67633b0dbc1": function() {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_global_6580a67633b0dbc1"]();
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_global_6580a67633b0dbc1"]();
 /******/ 					},
 /******/ 					"__wbg_set_e11a72d9733dadef": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbg_set_e11a72d9733dadef"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbg_set_e11a72d9733dadef"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbindgen_string_get": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_string_get"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_string_get"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_debug_string": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_debug_string"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_debug_string"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_throw": function(p0i32,p1i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_throw"](p0i32,p1i32);
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_throw"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper527": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_closure_wrapper527"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper622": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_closure_wrapper622"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper525": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_closure_wrapper525"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper626": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_closure_wrapper626"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper529": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_closure_wrapper529"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper628": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_closure_wrapper628"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper531": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_closure_wrapper531"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper624": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_closure_wrapper624"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper1642": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_closure_wrapper1642"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper3050": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_closure_wrapper3050"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper3027": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_closure_wrapper3027"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper1673": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_closure_wrapper1673"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper1644": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../../pkg/hadal.js"].exports["__wbindgen_closure_wrapper1644"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper1675": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["./node_modules/hadal/hadal.js"].exports["__wbindgen_closure_wrapper1675"](p0i32,p1i32,p2i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -425,7 +425,7 @@
 /******/
 /******/ 		// Fetch + compile chunk loading for webassembly
 /******/
-/******/ 		var wasmModules = {"1":["../../pkg/hadal_bg.wasm"]}[chunkId] || [];
+/******/ 		var wasmModules = {"0":["./node_modules/hadal/hadal_bg.wasm"]}[chunkId] || [];
 /******/
 /******/ 		wasmModules.forEach(function(wasmModuleId) {
 /******/ 			var installedWasmModuleData = installedWasmModules[wasmModuleId];
@@ -435,7 +435,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../../pkg/hadal_bg.wasm":"3b6de36a73138f8754af"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"./node_modules/hadal/hadal_bg.wasm":"89013d3070af5de18549"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
