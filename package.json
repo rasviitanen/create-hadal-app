@@ -28,7 +28,7 @@
   "homepage": "https://github.com/rasviitanen/hadal#readme",
   "dependencies": {
     "aphrodite": "^2.4.0",
-    "hadal": "^0.1.21",
+    "hadal": "../../pkg",
     "marked": "^0.8.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
