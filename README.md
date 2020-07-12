@@ -2,10 +2,10 @@
   <img align="center" height="64px" src="https://hadal.io/assets/hadal.svg">
   <br></br>
   
-  <strong>Hadal is a data management pattern that does not require servers or back-end code</strong>
-  <br></br>
-  <img src="https://travis-ci.org/rasviitanen/Hadal.svg?branch=master">
-  
+  <strong>Hadal platform for building dynamic web apps
+  without server infrastructure.
+  </strong>
+  <br></br>  
   <p>
   The purpose of Hadal project is to enable fast creation of web applications.
   For example, you are able to build collaboration services such as a text editor without requiring servers or back-end code.
