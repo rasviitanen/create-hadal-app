@@ -1,7 +1,7 @@
 {
-  "name": "create-hadal-app",
+  "name": "hadal-plain-client",
   "version": "0.1.0",
-  "description": "Create an app with Hadal and React",
+  "description": "create an app with hadal",
   "main": "src/index.jsx",
   "bin": {
     "hadal": ".bin/create-hadal-app.js"
@@ -44,6 +44,6 @@
     "prop-types": "^15.7.2",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5"
+    "webpack-dev-server": "^3.11.0"
   }
 }
